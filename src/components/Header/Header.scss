@@ -1,0 +1,28 @@
+.head-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../img/scuba2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 160px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 400px) {
+    .head-text {
+        height: auto;
+    }
+}

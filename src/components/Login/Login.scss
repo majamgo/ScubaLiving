@@ -1,0 +1,76 @@
+@import '../../scss/variabler';
+
+.all-forms {
+    display: flex;
+    width: 1100px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.75);
+margin: 30px auto;
+border-radius: 5px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+}
+
+.newin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+}
+
+input {
+    width: 70%;
+    padding: 15px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    width: 70%;
+    padding: 15px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.signbtn {
+    border: 2px solid $col_black;
+    background-color: $col_grey;
+    color: $col_black;
+}
+
+.newbtn {
+    border: 2px solid $col_grey;
+    background-color: $col_black;
+    color: $col_grey;
+}
+
+@media screen and (max-width: 1200px) {
+    .all-forms {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .signin {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .newin {
+        width: 100%;
+        padding: 20px;
+    }
+    input {
+        width: 90%;
+    }
+}

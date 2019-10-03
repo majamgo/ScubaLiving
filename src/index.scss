@@ -1,0 +1,39 @@
+@import './scss/variabler';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Gill Sans MT' , Verdana, sans-serif;
+    font-stretch: 85%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 39px;
+}
+
+h3 {
+    font-size: 33px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    color: $col_grey;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 24px;
+    color: $col_grey;
+}
